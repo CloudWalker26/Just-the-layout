@@ -1,0 +1,146 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  position: absolute;
+  /* display: none; */
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  /* display: flex; */
+}
+
+.one {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+.two {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+}
+.three {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: yellow;
+}
+
+.one.inactive {
+  display: none;
+}
+
+.two.active {
+  display: block;
+}
+.three.active {
+  display: block;
+}
+
+.top {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  background-color: black;
+  position: relative;
+}
+
+.top .left {
+  width: 55%;
+  height: 100%;
+  background-color: red;
+}
+
+.top .right {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  background-color: blue;
+}
+
+.bottom {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  background-color: black;
+}
+
+.bottom .first {
+  width: 33%;
+  height: 100%;
+  background-color: yellow;
+}
+
+.bottom .second {
+  width: 34%;
+  height: 100%;
+  background-color: violet;
+}
+
+.bottom .third {
+  width: 33%;
+  height: 100%;
+  background-color: yellow;
+}
+
+.top .right button {
+  display: inline-block;
+  padding: 25px;
+  margin-top: auto;
+  position: relative;
+  bottom: 0%;
+  margin: 0;
+  border: none;
+  /* top: 415px; */
+}
+
+.one-text {
+  width: 100%;
+  background-color: burlywood;
+  height: 100%;
+}
+
+.two-text {
+  display: none;
+  width: 100%;
+  background-color: greenyellow;
+  height: 100%;
+}
+.three-text {
+  display: none;
+  width: 100%;
+  background-color: wheat;
+  height: 100%;
+}
+
+.one-text.inactive {
+  display: none;
+}
+.two-text.active {
+  display: block;
+}
+.three-text.active {
+  display: block;
+}
+
+.buttons {
+  position: absolute;
+  left: 55%;
+  /* top: 50.3%; */
+  top: 85%;
+  /* top: 23rem; */
+  /* top: 368px; */
+  /* padding: 25px; */
+}
+
+.buttons button {
+  padding: 25px;
+  border: none;
+}
